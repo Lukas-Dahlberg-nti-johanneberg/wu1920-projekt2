@@ -150,6 +150,11 @@ div{
 
 }
 
+.bild-2{
+    height: 100px;
+   width: auto;
+}
+
 .Bild{
     max-width:400px;
     height: 200px;
