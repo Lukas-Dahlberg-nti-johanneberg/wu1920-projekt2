@@ -10,69 +10,6 @@ document.querySelector('.button').addEventListener('click', function () {
 });
 
 
-/* grå bakgrund */
-document.querySelector('.article-wrapper').addEventListener('click', function () {
-   
-    document.querySelector('.graybackground').classList.toggle('show');
-
-});
-document.querySelector('.bigpopup').addEventListener('click', function () {
-   
-    document.querySelector('.graybackground').classList.toggle('show');
-
-});
-
-/* ---------- */
-
-
-
-
-/* Köttbullar */
-
-document.querySelector('.article-wrapper-kottbullar').addEventListener('click', function () {
-   
-     document.querySelector('.kottbullar-popup').classList.toggle('show');
-     document.querySelector('.kottbullar').classList.toggle('show');
-
- });
-
- document.querySelector('.article-wrapper-kottbullar2').addEventListener('click', function () {
-   
-     document.querySelector('.bigpopup-kottbullar').classList.toggle('show');
- });
-
- document.querySelector('.bigpopup-kottbullar').addEventListener('click', function () {
-   
-    document.querySelector('.bigpopup-kottbullar').classList.toggle('show');
-});
-
-/* ---------- */
-
-
-
-
-
-
-/* pasta */
-document.querySelector('.article-wrapper-pasta').addEventListener('click', function () {
-   
-    document.querySelector('.pasta-popup').classList.toggle('show');
-    document.querySelector('.pasta').classList.toggle('show');
-
-});
-
-document.querySelector('.article-wrapper-pasta2').addEventListener('click', function () {
-  
-    document.querySelector('.bigpopup-pasta').classList.toggle('show');
-});
-
-document.querySelector('.bigpopup-pasta').addEventListener('click', function () {
-  
-   document.querySelector('.bigpopup-pasta').classList.toggle('show');
-});
-
-/* ---------- */
-
 /* Bananpannkakor */
 document.querySelector('.article-wrapper-Bananpannkakor').addEventListener('click', function () {
    
@@ -134,45 +71,7 @@ document.querySelector('.bigpopup-chicken_nuggets').addEventListener('click', fu
 
 /* ---------- */
 
-/* quorngryta */
-document.querySelector('.article-wrapper-quorngryta').addEventListener('click', function () {
-   
-    document.querySelector('.quorngryta-popup').classList.toggle('show');
-    document.querySelector('.quorngryta').classList.toggle('show');
 
-});
-
-document.querySelector('.article-wrapper-quorngryta2').addEventListener('click', function () {
-  
-    document.querySelector('.bigpopup-quorngryta').classList.toggle('show');
-});
-
-document.querySelector('.bigpopup-quorngryta').addEventListener('click', function () {
-  
-   document.querySelector('.bigpopup-quorngryta').classList.toggle('show');
-});
-
-/* ---------- */
-
-/* taco_med_kyckling */
-document.querySelector('.article-wrapper-taco_med_kyckling').addEventListener('click', function () {
-   
-    document.querySelector('.taco_med_kyckling-popup').classList.toggle('show');
-    document.querySelector('.taco_med_kyckling').classList.toggle('show');
-
-});
-
-document.querySelector('.article-wrapper-taco_med_kyckling2').addEventListener('click', function () {
-  
-    document.querySelector('.bigpopup-taco_med_kyckling').classList.toggle('show');
-});
-
-document.querySelector('.bigpopup-taco_med_kyckling').addEventListener('click', function () {
-  
-   document.querySelector('.bigpopup-taco_med_kyckling').classList.toggle('show');
-});
-
-/* ---------- */
 
 /* kyckling_salad */
 document.querySelector('.article-wrapper-kyckling_salad').addEventListener('click', function () {
@@ -193,10 +92,6 @@ document.querySelector('.bigpopup-kyckling_salad').addEventListener('click', fun
 });
 
 /* ---------- */
-
-
-
-
 
 /* img */
 document.querySelector('.article-wrapper-img').addEventListener('click', function () {

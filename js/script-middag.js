@@ -10,25 +10,7 @@ document.querySelector('.button').addEventListener('click', function () {
 });
 
 
-/* grå bakgrund */
-document.querySelector('.article-wrapper').addEventListener('click', function () {
-   
-    document.querySelector('.graybackground').classList.toggle('show');
-
-});
-document.querySelector('.bigpopup').addEventListener('click', function () {
-   
-    document.querySelector('.graybackground').classList.toggle('show');
-
-});
-
-/* ---------- */
-
-
-
-
 /* Köttbullar */
-
 document.querySelector('.article-wrapper-kottbullar').addEventListener('click', function () {
    
      document.querySelector('.kottbullar-popup').classList.toggle('show');
@@ -47,11 +29,6 @@ document.querySelector('.article-wrapper-kottbullar').addEventListener('click', 
 });
 
 /* ---------- */
-
-
-
-
-
 
 /* pasta */
 document.querySelector('.article-wrapper-pasta').addEventListener('click', function () {
@@ -73,66 +50,8 @@ document.querySelector('.bigpopup-pasta').addEventListener('click', function () 
 
 /* ---------- */
 
-/* Bananpannkakor */
-document.querySelector('.article-wrapper-Bananpannkakor').addEventListener('click', function () {
-   
-    document.querySelector('.Bananpannkakor-popup').classList.toggle('show');
-    document.querySelector('.Bananpannkakor').classList.toggle('show');
-
-});
-
-document.querySelector('.article-wrapper-Bananpannkakor2').addEventListener('click', function () {
-  
-    document.querySelector('.bigpopup-Bananpannkakor').classList.toggle('show');
-});
-
-document.querySelector('.bigpopup-Bananpannkakor').addEventListener('click', function () {
-  
-   document.querySelector('.bigpopup-Bananpannkakor').classList.toggle('show');
-});
-
-/* ---------- */
 
 
-/* Amerikanska */
-document.querySelector('.article-wrapper-Amerikanska').addEventListener('click', function () {
-   
-    document.querySelector('.Amerikanska-popup').classList.toggle('show');
-    document.querySelector('.Amerikanska').classList.toggle('show');
-
-});
-
-document.querySelector('.article-wrapper-Amerikanska2').addEventListener('click', function () {
-  
-    document.querySelector('.bigpopup-Amerikanska').classList.toggle('show');
-});
-
-document.querySelector('.bigpopup-Amerikanska').addEventListener('click', function () {
-  
-   document.querySelector('.bigpopup-Amerikanska').classList.toggle('show');
-});
-
-/* ---------- */
-
-/* chicken_nuggets */
-document.querySelector('.article-wrapper-chicken_nuggets').addEventListener('click', function () {
-   
-    document.querySelector('.chicken_nuggets-popup').classList.toggle('show');
-    document.querySelector('.chicken_nuggets').classList.toggle('show');
-
-});
-
-document.querySelector('.article-wrapper-chicken_nuggets2').addEventListener('click', function () {
-  
-    document.querySelector('.bigpopup-chicken_nuggets').classList.toggle('show');
-});
-
-document.querySelector('.bigpopup-chicken_nuggets').addEventListener('click', function () {
-  
-   document.querySelector('.bigpopup-chicken_nuggets').classList.toggle('show');
-});
-
-/* ---------- */
 
 /* quorngryta */
 document.querySelector('.article-wrapper-quorngryta').addEventListener('click', function () {
@@ -193,10 +112,6 @@ document.querySelector('.bigpopup-kyckling_salad').addEventListener('click', fun
 });
 
 /* ---------- */
-
-
-
-
 
 /* img */
 document.querySelector('.article-wrapper-img').addEventListener('click', function () {
